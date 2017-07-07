@@ -1,0 +1,39 @@
+
+.background {
+		background-image: url("https://i.imgur.com/Gf9xyo4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+	height: 100%;
+}
+
+.background2 {
+			/*background-image: url("https://i.imgur.com/Gf9xyo4.jpg");*/
+		background: linear-gradient(to right, #314755, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+
+.vh100 {
+	height: 100vh;
+}
+
+.w100{
+	width: 100%;
+}
+
+.bottom-1 {
+	bottom: 1rem;
+}
+
+.white {
+	color: #FFF;
+}
+
+.red {
+	color: #F47D66;
+}
+
