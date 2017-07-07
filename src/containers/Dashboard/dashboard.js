@@ -60,7 +60,8 @@ class Dashboard extends Component {
 
     const WeatherCardStyle = {
       color: '#FFF',
-      backgroundColor: '#F47D66'
+      backgroundColor: '#F47D66',
+      cursor: 'pointer'
     }
 
     const FLOATING_ACTION_STYLE = {

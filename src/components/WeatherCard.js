@@ -10,7 +10,7 @@ const DEFAULT_STYLE = {
 	Displays a weather card that shows weather information.
 	Forecast defaults to Celsius.
 */
-const WeatherCard = ({id,city, country, temperature, icon, className, summary, style = DEFAULT_STYLE, onClick}) => (
+const WeatherCard = ({id,city, country, temperature, icon, className="", summary, style = DEFAULT_STYLE, onClick}) => (
 	<Paper
 	zDepth={3}
 	style={{...style}}
