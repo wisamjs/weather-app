@@ -2,7 +2,7 @@ import {fetchFromApi} from './utils';
 import R from 'ramda';
 
 //TODO: create Node server to hide api key
-const apiBaseUrl = 'http://api.wunderground.com/api/850eff61e6fda5e0';
+const apiBaseUrl = 'https://api.wunderground.com/api/850eff61e6fda5e0';
 
 const fetchFromWeatherApi = fetchFromApi(apiBaseUrl);
 
