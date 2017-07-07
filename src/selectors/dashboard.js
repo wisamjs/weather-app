@@ -33,7 +33,6 @@ export const dashboardConnector = createSelector(
 	getLocations,
 	getDailyForecastsList,
 	(getDayForecastsLoading, getLocations, getDailyForecastsList) => {
-		debugger;
 		return {
 			loading: getDayForecastsLoading,
 			locations: getLocations,
