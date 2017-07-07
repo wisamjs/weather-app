@@ -1,5 +1,11 @@
 # Weather App
 
+# Run locally
+```
+npm install
+npm run start
+```
+
 ## Goals
 
 - make a weather dashboard that displays the current temperature and conditions (raining, sunny, etc) for 5 major cities. All 5 should be visible at once.
